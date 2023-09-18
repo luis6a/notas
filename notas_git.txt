@@ -31,3 +31,7 @@ Git reset y reflog
 > git reset --soft regresa todo exepto lo que está en stagin
 > git reset --hard "# commit" regresa todo a como estaba
 > git reset "hash" nos regresa a ese momento justo antes del commit (este un reset soft)
+
+Git amend
+
+> git commit --amend incluye los cambios realizados recientemente al commit anterior. Para ello primero hay que hacer un git add "ubicación de la carpeta (si esta en otra carpeta diferente a la de la raíz) y nombre del archivo"
