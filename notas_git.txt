@@ -24,3 +24,10 @@ Git clean
 Git cherry-pick
 
 > git cherry-pick #commit sirve para traer a una rama en específico un commit específico
+
+Git reset y reflog
+
+> git reflog muestra todo los cambios que se han hecho hasta los que no se les ha hecho commit incluso cuando ya se ha usado git reset (aparecen los hash que nos van a servir para reset)
+> git reset --soft regresa todo exepto lo que está en stagin
+> git reset --hard "# commit" regresa todo a como estaba
+> git reset "hash" nos regresa a ese momento justo antes del commit (este un reset soft)
