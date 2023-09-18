@@ -1,5 +1,12 @@
 Notas del curso Git y GitHub
 
+GitHub
+
+> git remote add origin "url de GitHub" para agregar el respositorio de GitHub a Git, 
+> git pull origin main para traer la información de GitHub a Git
+> git pull origin main --allow-unrelated-histories para mezclar las historias entre GitHub y Git y poder hacer el primer push además de traer README.md
+> git push origin main para enviar los commits de Git a GitHub
+
 Git stash
 
 > git stash, sirve para guardar cambios en un lugar temporal sin tener que hacer commit, 
