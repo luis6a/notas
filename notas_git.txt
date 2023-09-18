@@ -35,3 +35,10 @@ Git reset y reflog
 Git amend
 
 > git commit --amend incluye los cambios realizados recientemente al commit anterior. Para ello primero hay que hacer un git add "ubicación de la carpeta (si esta en otra carpeta diferente a la de la raíz) y nombre del archivo"
+
+Git grep (archivos) y log (commits)
+
+> git grep "palabra" muestra donde se encuentra la palabra que estamos buscando
+> git grep -n "palabra" muestra en la línea donde está la palabra
+> git grep -c "palabra" muestra la cantidad de veces que se usó esa palabra, para buscar etiquetas es entre comillas "<p>"
+> git log -S "palabra" muestra la cantidad de veces que usé esa palabra en los commits y no en el código
