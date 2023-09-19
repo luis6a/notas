@@ -42,3 +42,21 @@ Git grep (archivos) y log (commits)
 > git grep -n "palabra" muestra en la línea donde está la palabra
 > git grep -c "palabra" muestra la cantidad de veces que se usó esa palabra, para buscar etiquetas es entre comillas "<p>"
 > git log -S "palabra" muestra la cantidad de veces que usé esa palabra en los commits y no en el código
+
+Comandos colaborativos Git y GitHub
+
+> git shortlog nos muesrta los commits que han realizado los miembros del equipo a nivel GitHub
+> git shortlog -sn muestra las personas que han hecho commits a nivel Git
+> git shortlog -sn --all muestra todos los commits, incluso los que fueron borrados
+> git shortlog -sn --all --no-merges muestra la lista eliminando los merges
+
+> git config --global alias.'nombre_de_comando' "ruta_comando(ej: shortlog -sn --all --no-merges)" para configurar un alida y evitar escrbir todo el comando
+
+> git blame "nombre_archivo" para ver quien ha modificado cada línea
+> git blame -c "nombre_archivo" para ver quien ha modificado cada línea un poco mejor identado
+> git "comando" --help para saber como funciona un comando
+> git blame "nombre_archivo" -L"número_linea_1","número_linea_2" muestra quien modifcó las líneas solo entre el intervalo
+> git blame "nombre_archivo" -L"número_linea_1","número_linea_2" -c este último para agregarle un poco más de formato para verlo más fácil
+> git branch para ver las ramas locales
+> git branch -r para ver las ramas remotas en GitHub
+> git branch -a muestra todas las ramas, tanto locales comoo remotasG
